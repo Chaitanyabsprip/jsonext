@@ -2,7 +2,7 @@
 name: jsonext
 description: Enhance Dart JSON manipulation with type safety, error-handling,
   and expressive extensions for seamless data handling.
-version: 0.0.4
+version: 0.1.0
 homepage: https://github.com/chaitanyabsprip/jsonext
 repository: https://github.com/chaitanyabsprip/jsonext
 issue_tracker: https://github.com/chaitanyabsprip/jsonext/issues

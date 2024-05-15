@@ -1,6 +1,6 @@
-## 0.0.4
+## 0.1.0
 
-- Updated the asBool and asBoolN methods to not crash on non bool value.
+- `asBool` and `asBoolN` methods should not crash on non bool value.
 
 ## 0.0.3
 
