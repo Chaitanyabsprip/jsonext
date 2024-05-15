@@ -1,4 +1,23 @@
-# Usage
+# Jsonext
+
+Dart JSON manipulation library with type safety, error-handling, and expressive
+extensions for seamless data handling.
+
+## Features
+
+- **Generic Type for JSON:** Introduces the `Json<T>` type, allowing strong
+  typing for JSON objects.
+- **Callback Signature for JSON Parsing:** Defines a callback signature,
+  `FromJsonCallback<T>`, for creating custom parsers.
+- **Extension Methods:** Offers a set of concise extension methods for common
+  data types like integers, strings, booleans, date-time, doubles, maps, lists,
+  and custom JSON structures.
+- **Parsing with Custom Callback:** Versatile method, `parseN`, for parsing JSON
+  values using a custom callback with optional fallback.
+- **Check for Key Existence:** The `has` method allows checking for the
+  existence of a specific key in the JSON object.
+
+## Usage
 
 Explore the provided extension methods to streamline your JSON parsing. Here's a quick example:
 
@@ -55,15 +74,3 @@ void main() {
   print(decodedJson);
 }
 ```
-
-## Features
-
-- **Generic Type for JSON:** Introduces the `Json<T>` type, allowing strong typing for JSON objects.
-
-- **Callback Signature for JSON Parsing:** Defines a callback signature, `FromJsonCallback<T>`, for creating custom parsers.
-
-- **Extension Methods:** Offers a set of concise extension methods for common data types like integers, strings, booleans, date-time, doubles, maps, lists, and custom JSON structures.
-
-- **Parsing with Custom Callback:** Versatile method, `parseN`, for parsing JSON values using a custom callback with optional fallback.
-
-- **Check for Key Existence:** The `has` method allows checking for the existence of a specific key in the JSON object.
